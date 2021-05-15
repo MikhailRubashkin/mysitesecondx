@@ -6,3 +6,4 @@
  */
 
 include_once 'news.features.inc';
+include_once 'news.install';

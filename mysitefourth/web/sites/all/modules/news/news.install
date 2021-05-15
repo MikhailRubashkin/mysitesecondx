@@ -1,0 +1,8 @@
+<?php
+
+function news_update_7000(&$sandbox) {
+  $module_list = array('news');
+  if (module_exists('news')) {
+  module_enable($module_list, TRUE);
+  }
+}
