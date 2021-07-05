@@ -1,0 +1,10 @@
+global-styling:
+  version: VERSION
+  css:
+    base:
+      css/style.css: {}
+      css/stylemobile.css: {}
+  js:
+    js/scroll.js: {}
+  dependencies:
+    - core/jquery

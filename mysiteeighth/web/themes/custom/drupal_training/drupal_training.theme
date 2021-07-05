@@ -1,0 +1,29 @@
+<?php
+
+function drupal_training_suggestions_page_alter(array &$suggestions, array $variables) {
+  $path_matcher = Drupal::service('path.matcher');
+  $suggestion_theme_settings = theme_get_setting('d8_template');
+  if ($suggestion_theme_settings != 'default') {
+    if ($path_matcher->isFrontPage()) {
+      $suggestions[] = $variables['theme_hook_original'] . '__front__d8__' . $suggestion_theme_settings;
+    }
+    $suggestions[] = $variables['theme_hook_original'] . '__d8__' . $suggestion_theme_settings;
+  }
+  return $suggestions;
+}
+
+
+/**
+ * @file
+ */
+function drupal_training_page_attachments(array &$attachments) {
+  $attachments['#attached']['library'][] = 'drupal_training/scroll.js';
+}
+/**
+ * Preprocess function for page.twig.html.
+ */
+function drupal_training_preprocess_page(&$vars) {
+  if ($vars['is_front']) {
+    $vars['#attached']['library'][] = 'drupal_training/scroll.js';
+  }
+}

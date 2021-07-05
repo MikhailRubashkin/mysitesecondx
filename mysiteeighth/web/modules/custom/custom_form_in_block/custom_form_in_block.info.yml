@@ -1,0 +1,6 @@
+name: Custom form in Block
+description: My custom form and block
+core: 8.x
+type: module
+dependencies:
+- block

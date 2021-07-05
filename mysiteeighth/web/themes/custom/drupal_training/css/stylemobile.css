@@ -1,0 +1,225 @@
+@media   (max-width: 320px) {
+  li::after{
+    top: 10%;
+    font-size: 250%;
+    line-height: 0.9em;
+    left: 10%;
+  }
+  .content::before{
+    font-size: 90%;
+    line-height: 1.5em;
+    top: 40%;
+    left: 10%;
+    right: 10%;
+  }
+  #block-mymenu > ul{
+    display: flex;
+    flex-direction: column;
+    margin-left: 70%;
+        margin-top: 3%;
+  }
+}
+
+
+@media   (max-width: 320px) {
+  #toolbar-bar{width: 100%;}
+    .site-hero{width: 100%;  height: 520px;}
+      body > div.site-hero > div > img{width: 100%;height: 520px;}
+body > div.site-hero > div::after{display: none;}
+    }
+    
+@media   (max-width: 320px) {
+#block-views-block-front-block-view-block-1 > div:nth-child(2) > div > div.view-content > h2{
+    font-size: 300%;
+width: 100%;
+}
+#block-views-block-front-block-view-block-1 > div:nth-child(2) > div > div.view-content > div.field-content{
+  display: flex;
+  flex-basis: auto;
+}
+#block-views-block-front-block-view-block-1 > div:nth-child(2) > div > div.view-content > div.second-block-image > img{
+  width: 200%;
+  display: flex;
+flex-basis: 100%;
+align-self: center;
+}
+#block-views-block-front-block-view-block-1 > div:nth-child(2) > div::before{
+  display: none;
+}
+#block-views-block-front-block-view-block-1 > div:nth-child(2) > div::after{
+  display: none;
+}
+#block-views-block-front-block-view-block-1 > div:nth-child(2) > div > div.view-content::after{
+  display: none;
+}
+#block-views-block-front-block-view-block-1 > div:nth-child(2) > div > div.view-content > div.field-content::before{
+  display: none;
+}
+}
+@media   (max-width: 320px) {
+#block-lists {width: 100%;height: 1345px;}
+#block-lists > div.field.field--name-field-para.field--type-entity-reference-revisions.field--label-hidden.field__item > div > div.field.field--name-field-list-ref.field--type-entity-reference-revisions.field--label-hidden.field__items{
+  display: flow-root;
+}
+#block-lists > div.field.field--name-field-para.field--type-entity-reference-revisions.field--label-hidden.field__item > div > h2{
+  font-size: 200%;
+}
+#block-lists > div.field.field--name-field-para.field--type-entity-reference-revisions.field--label-hidden.field__item::after{
+  display: none;
+}
+#block-lists > div.field.field--name-field-para.field--type-entity-reference-revisions.field--label-hidden.field__item::before{
+  display: none;
+}
+#block-lists > div.field.field--name-field-para.field--type-entity-reference-revisions.field--label-hidden.field__item > div::before{
+  display: none;
+}
+#block-lists h2::before{
+  top: 10%;
+}
+#block-lists > div.field.field--name-field-para.field--type-entity-reference-revisions.field--label-hidden.field__item > div::after{
+  display: none;
+}
+.layout-container{margin-top: 380px;}
+}
+@media   (max-width: 320px) {
+#block-customforminblock{width: 100%; height: 520px;}
+#edit-your-name{width: 90%; margin-left: 5%;  }
+#contact{left: 20%;
+    top: 75%;}
+#block-customforminblock::after{left: 20%;
+    top: 13%;}
+#block-customforminblock::before{font-size: 250%; left: 5%; top: 5%;}
+#edit-submit{       width: 60%;
+    margin-left: 33%;
+    margin-right: 20%;
+}
+
+#custom-form-in-block-form{font-size: 100%;}
+#edit-email{     width: 90%; margin-left: 5%;}
+#block-customforminblock > h2::after{
+    left: 5%;
+    right: 10%;
+    font-size: 60%;
+    top: 25%;}
+#custom-form-in-block-form::after{
+    left: 5%;
+    font-size: 130%;
+    top: 30%;
+}
+
+body{margin-top: 1px;}
+#block-customforminblock > h2::before{display: none;}
+#custom-form-in-block-form > div::before{display: none;}
+#custom-form-in-block-form > div.js-form-item.form-item.js-form-type-textfield.form-type-textfield::before{
+  display: none;
+}
+#custom-form-in-block-form > div::after{display: none;}
+#custom-form-in-block-form > div.js-form-item.form-item.js-form-type-textfield.form-type-textfield::after{
+  display: none;
+}
+#block-customforminblock > h2{
+  padding-left: 5%;
+    font-size: 200%;
+    line-height: 0.9em;
+    margin-top: 60%;
+    display: flex;
+    min-width: -webkit-fill-available;
+}
+}
+
+@media   (max-width: 320px) {
+  .site-hero{width: 100%; height: 520px;}
+
+#block-contact{width: 100%; background: white; }
+
+#block-contact::before{
+  content: 'Services';
+  position: absolute;
+height: 51px;
+left: 30%;
+right: 21.56%;
+top: 170px;
+font-family: Sofia Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 40px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
+}
+
+#block-contact > div.field.field--name-field-para.field--type-entity-reference-revisions.field--label-hidden.field__item.quickedit-field > div > div.field.field--name-field-list-ref.field--type-entity-reference-revisions.field--label-hidden.field__items::before{
+  content: 'Abaut';
+  position: absolute;
+width: 225px;
+height: 51px;
+left: 30%;
+top: 120px;
+font-family: Sofia Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 40px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
+}
+
+#block-contact > h2 {
+display: none;
+}
+#block-contact > h2::before{
+  display: none;
+}
+#block-contact > h2::after{
+display: none;
+}
+#block-contact > div.field.field--name-field-para.field--type-entity-reference-revisions.field--label-hidden.field__item.quickedit-field > div > div.field.field--name-field-list-ref.field--type-entity-reference-revisions.field--label-hidden.field__items::after{
+  content: 'Contact';
+  position: absolute;
+width: 167px;
+height: 51px;
+left: 30%;
+top: 220px;
+font-family: Sofia Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 40px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
+}
+#block-contact > div.field.field--name-field-para.field--type-entity-reference-revisions.field--label-hidden.field__item.quickedit-field > div > div.clearfix.text-formatted.field.field--name-field-text1.field--type-text-with-summary.field--label-hidden.field__item > p{
+  display: none;
+}
+#block-contact > div.field.field--name-field-para.field--type-entity-reference-revisions.field--label-hidden.field__item.quickedit-field > div > div.field.field--name-field-list-ref.field--type-entity-reference-revisions.field--label-hidden.field__items > div::before{
+  content: '';
+  position: absolute;
+width: 196px;
+height: 48px;
+left: 62px;
+top: 402px;
+background: #F9D023;
+}
+#block-contact > div.field.field--name-field-para.field--type-entity-reference-revisions.field--label-hidden.field__item.quickedit-field > div > div.field.field--name-field-list-ref.field--type-entity-reference-revisions.field--label-hidden.field__items > div::after{
+  content: 'CONTACT US';
+  position: absolute;
+left: 31.88%;
+right: 35.62%;
+top: 49.12%;
+bottom: 16.18%;
+font-family: Sofia Pro;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 14px;
+letter-spacing: 0.6px;
+color: #000000;
+}
+
+}

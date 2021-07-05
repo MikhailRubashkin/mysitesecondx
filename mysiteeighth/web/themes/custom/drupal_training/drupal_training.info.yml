@@ -1,0 +1,29 @@
+# This theme is marked as @internal. It is intended to evolve and change over
+# minor releases.
+# Change record https://www.drupal.org/node/2582945.
+# As the UI of Drupal improves between minor versions, the mark up and assets
+# in the drupal_training theme will change. The drupal_training theme is not backwards
+# compatible. If you wish to modify the output or assets of drupal_training you can:
+# 1. Copy the whole of drupal_training and rename it as your own administration theme. You
+# will need to manually manage your own updates if you want to stay up to
+# date with drupal_training's bug fixes and feature support.
+#
+# 2. Sub-theme drupal_training. This is only recommended if you want to make minor
+# tweaks and understand that drupal_training could break your modifications as it
+# changes.
+name: Drupal_training
+type: theme
+base theme: classy
+description: 'The default administration theme for Drupal 8 was designed with clean lines, simple blocks, and sans-serif font to emphasize the tools and tasks at hand.'
+alt text: 'Default administration theme for Drupal 8 with simple blocks and clean lines.'
+package: Core
+version: VERSION
+core: 8.x
+libraries:
+ - drupal_training/global-styling
+
+regions:
+  header: 'Header'
+  hero: 'Hero'
+  content: 'Content'
+  footer: 'Footer'

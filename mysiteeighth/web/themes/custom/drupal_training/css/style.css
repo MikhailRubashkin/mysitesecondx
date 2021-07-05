@@ -1,0 +1,1204 @@
+@font-face {
+  font-family: 'Sofia Pro Regular';
+  src: url('../fonts/sofia/SofiaProRegular.eot');
+  src: url("../fonts/sofia/SofiaPro-Regular.woff2") format("woff2"),
+   url("../fonts/sofia/SofiaPro-Regular.woff") format("woff");
+   }
+   @font-face {
+     font-family: 'Alata';
+     src: url('../fonts/alata/Alata-Regular.eot');
+      src: url("../fonts/alata/Alata-Regular.woff2") format("woff2"),
+       url("../fonts/alata/Alata-Regular.woff") format("woff");
+      }
+h1{
+
+}
+h2{
+
+}
+h3{
+
+}
+p{
+
+}
+a {
+    text-decoration: none;
+   }
+.hero{
+  width: 100%;
+  height: 100%;
+}
+.hero2{
+  width: 100%;
+  height: 100%;
+}
+.content-header {
+  position: relative;
+    z-index: 1;
+}
+.layout-container{
+  margin-top: 1024px;
+}
+.site-hero{
+  position: absolute;
+    top: 0;
+}
+.site-hero::before{
+background: linear-gradient(180deg, #000000 4.66%, rgba(0, 0, 0, 0) 76.78%);
+content: "";
+width: 100%;
+height: 100%;
+position: absolute;
+bottom: 0;
+left: 0;
+transform: rotate(180deg);
+}
+body > div.site-hero > div::after{
+  content: '';
+  position: absolute;
+bottom: 20px;
+width: 1px;
+height: 101px;
+left: 50%;
+top: 85%;
+background: #F6D330;
+}
+#contact{
+  content: '';
+  position: absolute;
+  bottom: 20px;
+width: 196px;
+height: 48px;
+left: 721px;
+top: 792px;
+background: #F9D023;
+display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*ul.menu::before{
+  content:  "CONTACT US";
+  position: absolute;
+left: 46.4%;
+right: 47.26%;
+top: 935px;
+bottom: 79.01%;
+font-family: Sofia Pro Regular;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 14px;
+letter-spacing: 0.6px;
+color: #000000;
+}*/
+
+.content::before{
+  content: 'Marvel Power Group is a boutique consulting firm with a fresh, markets-based approach to value creation. We offer services to clients in energy, water, manufacturing and transportation sectors.';
+  position: absolute;
+left: 27.16%;
+right: 17.1%;
+top: 73%;
+bottom: 82.09%;
+font-family: Sofia Pro Regular;
+font-style: normal;
+font-weight: 300;
+font-size: 25px;
+line-height: 35px;
+text-align: center;
+color: #FFFFFF;
+}
+
+#scroll{
+  content: 'Scroll for more';
+  position: absolute;
+height: 9px;
+left: 47%;
+top: 1000px;
+font-family: Sofia Pro Regular;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 14px;
+display: flex;
+align-items: center;
+text-align: center;
+color: rgba(255, 255, 255, 0.7);
+}
+.content::after{
+  content: '01 Home';
+  position: absolute;
+height: 15px;
+left: 92.83%;
+right: 3.96%;
+top: 560px;
+font-family: Sofia Pro Regular;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 14px;
+display: flex;
+align-items: center;
+text-align: right;
+
+color: #FFFFFF;
+}
+body > header > div::before{
+  content: '';
+  position: absolute;
+width: 1px;
+height: 60px;
+left: 1640px;
+top: 464px;
+background: #FFFFFF;
+transform: matrix(0, -1, -1, 0, 0, 0);
+}
+body > header > div::after{
+  content: '';
+  position: absolute;
+width: 1px;
+height: 21px;
+left: 1640px;
+top: 520px;
+background: #FFFFFF;
+transform: matrix(0, -1, -1, 0, 0, 0);
+}
+ul.menu::before{
+  content: '02';
+  position: absolute;
+height: 15px;
+left: 96.90%;
+right: 1.59%;
+top: 522px;
+font-family: Sofia Pro Regular;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 10px;
+display: flex;
+align-items: center;
+text-align: right;
+
+color: #FFFFFF;
+}
+li::before{
+  content: '';
+  position: absolute;
+width: 1px;
+height: 21px;
+left: 1641px;
+top: 562px;
+background: #FFFFFF;
+transform: matrix(0, -1, -1, 0, 0, 0);
+}
+body > div.layout-container::after{
+  content: '03';
+  position: absolute;
+height: 15px;
+left: 97.43%;
+right: 1.59%;
+top: 644px;
+font-family: Sofia Pro Regular;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 10px;
+display: flex;
+align-items: center;
+text-align: right;
+color: #FFFFFF;
+}
+#block-mymenu::before{
+  content: '';
+  position: absolute;
+width: 1px;
+height: 21px;
+left: 1642px;
+top: 605px;
+background: #FFFFFF;
+transform: matrix(0, -1, -1, 0, 0, 0);
+}
+#block-mymenu::after{
+  content: '04';
+  position: absolute;
+height: 15px;
+left: 97.00%;
+right: 1.59%;
+top: 607px;
+
+font-family: Sofia Pro Regular;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 10px;
+display: flex;
+align-items: center;
+text-align: right;
+
+color: #FFFFFF;
+
+}
+#block-views-block-front-block-view-block-1::before{
+  content: '';
+  position: absolute;
+width: 1px;
+height: 21px;
+left: 1640px;
+top: 295px;
+
+background: #210B20;
+transform: matrix(0, -1, -1, 0, 0, 0);
+}
+#block-views-block-front-block-view-block-1::after{
+  content: '';
+  position: absolute;
+width: 1px;
+height: 60px;
+left: 1625px;
+top: 320px;
+
+background: #210B20;
+transform: matrix(0, -1, -1, 0, 0, 0);
+}
+#block-views-block-front-block-view-block-1 > div:nth-child(2) > div > div.view-content > div.field-content::before{
+  content: '02 About';
+  position: absolute;
+height: 15px;
+left: 91.83%;
+right: 3.96%;
+top: 340px;
+
+font-family: Sofia Pro Regular;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 14px;
+display: flex;
+align-items: center;
+text-align: right;
+
+color: #210B20;
+
+}
+#block-views-block-front-block-view-block-1 > div:nth-child(2) > div > div.view-content > div.field-content::after{
+  content: '';
+  position: absolute;
+width: 1px;
+height: 21px;
+left: 1641px;
+top: 380px;
+background: #210B20;
+transform: matrix(0, -1, -1, 0, 0, 0);
+}
+#block-views-block-front-block-view-block-1 > div:nth-child(2) > div > div.view-content::before{
+  content: '';
+  position: absolute;
+width: 1px;
+height: 21px;
+left: 1642px;
+top: 420px;
+background: #210B20;
+transform: matrix(0, -1, -1, 0, 0, 0);
+}
+#block-views-block-front-block-view-block-1 > div:nth-child(2) > div > div.view-content::after{
+  content: '03';
+  position: absolute;
+  height: 15px;
+  left: 97.28%;
+  right: 1.59%;
+  top: 382px;
+
+  font-family: Sofia Pro Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 10px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+
+  color: #210B20;
+}
+#block-views-block-front-block-view-block-1 > div:nth-child(2) > div::before{
+  content: '01';
+  position: absolute;
+height: 15px;
+left: 97.14%;
+right: 1.59%;
+top: 298px;
+
+font-family: Sofia Pro Regular;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 10px;
+display: flex;
+align-items: center;
+text-align: right;
+
+color: #210B20;
+}
+#block-views-block-front-block-view-block-1 > div:nth-child(2) > div::after{
+  content: '04';
+  position: absolute;
+height: 15px;
+left: 97.28%;
+right: 1.59%;
+top: 422px;
+
+font-family: Sofia Pro Regular;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 10px;
+display: flex;
+align-items: center;
+text-align: right;
+
+color: #210B20;
+
+}
+#block-lists > div.field.field--name-field-para.field--type-entity-reference-revisions.field--label-hidden.field__item > div > div.field.field--name-field-list-ref.field--type-entity-reference-revisions.field--label-hidden.field__items::before{
+  content: '';
+  position: absolute;
+width: 1px;
+height: 21px;
+left: 1640px;
+top: 550px;
+
+background: #000000;
+transform: matrix(0, -1, -1, 0, 0, 0);
+}
+#block-lists > div.field.field--name-field-para.field--type-entity-reference-revisions.field--label-hidden.field__item > div > div.field.field--name-field-list-ref.field--type-entity-reference-revisions.field--label-hidden.field__items::after{
+  content: '';
+  position: absolute;
+width: 1px;
+height: 21px;
+left: 1641px;
+top: 590px;
+
+background: #000000;
+transform: matrix(0, -1, -1, 0, 0, 0);
+}
+#block-lists > div.field.field--name-field-para.field--type-entity-reference-revisions.field--label-hidden.field__item > div > div::before{
+  content: '';
+  position: absolute;
+width: 1px;
+height: 60px;
+left: 1623px;
+top: 610px;
+
+background: #000000;
+transform: matrix(0, -1, -1, 0, 0, 0);
+}
+#block-lists > div.field.field--name-field-para.field--type-entity-reference-revisions.field--label-hidden.field__item > div > div::after{
+  position: absolute;
+width: 1px;
+height: 21px;
+left: 1640px;
+top: 670px;
+
+background: #000000;
+transform: matrix(0, -1, -1, 0, 0, 0);
+}
+#block-lists > div.field.field--name-field-para.field--type-entity-reference-revisions.field--label-hidden.field__item::before{
+  content: '01';
+  position: absolute;
+height: 15px;
+left: 97.74%;
+right: 1.59%;
+top: 553px;
+
+font-family: Sofia Pro Regular;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 10px;
+display: flex;
+align-items: center;
+text-align: right;
+
+color: #000000;
+}
+#block-lists > div.field.field--name-field-para.field--type-entity-reference-revisions.field--label-hidden.field__item::after{
+  content: '02';
+  position: absolute;
+height: 15px;
+left: 97.68%;
+right: 1.59%;
+top: 593px;
+
+font-family: Sofia Pro Regular;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 10px;
+display: flex;
+align-items: center;
+text-align: right;
+
+color: #000000;
+}
+#block-lists > div.field.field--name-field-para.field--type-entity-reference-revisions.field--label-hidden.field__item > div::before{
+  content: '03 Services';
+  position: absolute;
+height: 15px;
+left: 91.00%;
+right: 3.96%;
+top: 633px;
+
+font-family: Sofia Pro Regular;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 14px;
+display: flex;
+align-items: center;
+text-align: right;
+
+color: #000000;
+
+}
+#block-lists > div.field.field--name-field-para.field--type-entity-reference-revisions.field--label-hidden.field__item > div::after{
+  content: '04';
+  position: absolute;
+height: 15px;
+left: 97.88%;
+right: 1.59%;
+top: 673px;
+font-family: Sofia Pro Regular;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 10px;
+display: flex;
+align-items: center;
+text-align: right;
+color: #000000;
+}
+#block-customforminblock > div{
+  content: '';
+  position: absolute;
+width: 1px;
+height: 21px;
+left: 1640px;
+top: 398px;
+
+background: #FFFFFF;
+transform: matrix(0, -1, -1, 0, 0, 0);
+}
+body > footer > div > div::after{
+  content: '';
+  position: absolute;
+width: 1px;
+height: 21px;
+left: 1879px;
+top: 3330px;
+background: #FFFFFF;
+transform: matrix(0, -1, -1, 0, 0, 0);
+}
+#custom-form-in-block-form > div.js-form-item.form-item.js-form-type-textfield.form-type-textfield.js-form-item-email.form-item-email.form-no-label::before{
+  content: '';
+  position: absolute;
+width: 1px;
+height: 21px;
+left: 1641px;
+top: 490px;
+
+background: #FFFFFF;
+transform: matrix(0, -1, -1, 0, 0, 0);
+}
+#custom-form-in-block-form > div.js-form-item.form-item.js-form-type-textfield.form-type-textfield.js-form-item-email.form-item-email.form-no-label::after{
+  content: '';
+  position: absolute;
+width: 1px;
+height: 60px;
+left: 1640px;
+top: 530px;
+
+background: #FFFFFF;
+transform: matrix(0, -1, -1, 0, 0, 0);
+}
+#custom-form-in-block-form > div.js-form-item.form-item.js-form-type-textfield.form-type-textfield::before{
+  content: '01';
+  position: absolute;
+  height: 15px;
+  left: 97.64%;
+  right: 1.59%;
+  top: 402px;
+
+  font-family: Sofia Pro Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 10px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+
+  color: #FFFFFF;
+}
+#custom-form-in-block-form > div.js-form-item.form-item.js-form-type-textfield.form-type-textfield::after{
+  content: '02';
+  position: absolute;
+height: 15px;
+left: 97.68%;
+right: 1.59%;
+top: 451px;
+
+font-family: Sofia Pro Regular;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 10px;
+display: flex;
+align-items: center;
+text-align: right;
+
+color: #FFFFFF;
+
+}
+#custom-form-in-block-form > div::after{
+  content: '03';
+  position: absolute;
+height: 15px;
+left: 97.68%;
+right: 1.59%;
+top: 495px;
+
+font-family: Sofia Pro Regular;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 10px;
+display: flex;
+align-items: center;
+text-align: right;
+
+color: #FFFFFF;
+}
+#custom-form-in-block-form > div::before{
+  content: '04 Contact';
+  position: absolute;
+height: 15px;
+left: 91.00%;
+right: 3.96%;
+top: 553px;
+
+font-family: Sofia Pro Regular;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 14px;
+display: flex;
+align-items: center;
+text-align: right;
+
+color: #FFFFFF;
+}
+li::after{
+  content: 'Marvel Power Group';
+  position: absolute;
+height: 130px;
+left: 16.16%;
+right: 16.16%;
+margin-top: 25%;
+font-family: Alata;
+font-style: normal;
+font-weight: normal;
+font-size: 115px;
+line-height: 130px;
+text-align: center;
+color: #FFFFFF;
+}
+
+
+ul.menu{
+  font-family: Sofia Pro Regular;
+display: flex;
+justify-content: flex-end;
+margin: 0px 150px 5px;
+column-gap: 12%;
+margin-top: 39px;
+padding: 20px;
+}
+li.munu-item{
+  font-family: Sofia Pro Regular;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+}
+.second-block{
+  display: flex;
+  flex-basis: 100%;
+justify-content: center;
+}
+.second-block h2{
+  width: 100%;
+font-family: Alata;
+font-style: normal;
+font-weight: normal;
+font-size: 90px;
+line-height: 100px;
+position: relative;
+color: #000000;
+display: flex;
+flex-basis: 100%;
+}
+.second-block .view-content {
+  display: flex;
+flex-wrap: wrap;
+  flex-basis: 80%;
+  justify-content: center;
+}
+ .second-block .second-block-image,
+.second-block .field-content {
+display: flex;
+flex-basis: 50%;
+flex-direction: column;
+}
+.second-block h2::before{
+  content: '';
+  position: absolute;
+bottom: 20px;
+width: 100px;
+height: 6px;
+left: 0;
+top: 115%;
+background: #F6D330;
+}
+.second-block .field-content p{
+font-family: Sofia Pro Regular;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 26px;
+display: flex;
+text-align:left;
+margin-left: 10px ;
+color: #0B0D21;
+}
+#block-lists .title{
+  width: 100%;
+  height: 80px;
+  left: 16.16%;
+  right: 16.04%;
+  top: calc(50% - 80px/2 + 157.5px);
+  font-family: Alata;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 90px;
+  line-height: 80px;
+  color: #000000;
+}
+#block-lists h2::before{
+  content: '';
+  position: absolute;
+bottom: 20px;
+width: 100px;
+height: 6px;
+left: 12%;
+top: 25%;
+background: #FFFFFF;
+}
+#block-lists{
+width: 1640px;
+height: 1024px;
+background: #F6D330;
+}
+#block-lists p{
+  width: 100%;
+}
+
+#block-lists > div.field.field--name-field-para.field--type-entity-reference-revisions.field--label-hidden.field__item > div > div.field.field--name-field-list-ref.field--type-entity-reference-revisions.field--label-hidden.field__items{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5%;
+  width: 80%;
+}
+#block-lists > div.field.field--name-field-para.field--type-entity-reference-revisions.field--label-hidden.field__item > div > div.field.field--name-field-list-ref.field--type-entity-reference-revisions.field--label-hidden.field__items > div:nth-child(1) > div > div.clearfix.text-formatted.field.field--name-field-title.field--type-text.field--label-hidden.field__item{
+height: 73px;
+left: 16.16%;
+right: 66.4%;
+top: calc(50% - 73px/2 + 512px);
+font-family: Sofia Pro Regular;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 42px;
+color: #000000;
+}
+#block-lists > div.field.field--name-field-para.field--type-entity-reference-revisions.field--label-hidden.field__item > div > div.field.field--name-field-list-ref.field--type-entity-reference-revisions.field--label-hidden.field__items > div:nth-child(2) > div > div.clearfix.text-formatted.field.field--name-field-title.field--type-text.field--label-hidden.field__item{
+height: 73px;
+left: 39.33%;
+right: 43.35%;
+top: calc(50% - 73px/2 + 512px);
+font-family: Sofia Pro Regular;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 42px;
+color: #000000;
+}
+#block-lists > div.field.field--name-field-para.field--type-entity-reference-revisions.field--label-hidden.field__item > div > div.field.field--name-field-list-ref.field--type-entity-reference-revisions.field--label-hidden.field__items > div:nth-child(3) > div > div.clearfix.text-formatted.field.field--name-field-title.field--type-text.field--label-hidden.field__item{
+  height: 73px;
+left: 62.5%;
+right: 17.07%;
+top: calc(50% - 73px/2 + 512px);
+font-family: Sofia Pro Regular;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 42px;
+color: #000000;
+}
+#block-lists > div.field.field--name-field-para.field--type-entity-reference-revisions.field--label-hidden.field__item > div > div.field.field--name-field-list-ref.field--type-entity-reference-revisions.field--label-hidden.field__items > div:nth-child(3) > div > div.field.field--name-field-list.field--type-string.field--label-hidden.field__items{
+  left: 63.78%;
+right: 16.16%;
+top: 65.95%;
+bottom: 30.45%;
+font-family: Sofia Pro Regular;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 20px;
+color: #0B0D21;
+
+}
+#block-lists > div.field.field--name-field-para.field--type-entity-reference-revisions.field--label-hidden.field__item > div > div.clearfix.text-formatted.field.field--name-field-text1.field--type-text-with-summary.field--label-hidden.field__item{
+  left: 16.16%;
+right: 32.8%;
+top: 58.52%;
+bottom: 38.24%;
+
+font-family: Sofia Pro Regular;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 26px;
+width: 80%;
+padding-top: 3%;
+color: #0B0D21;
+}
+#block-lists > div.field.field--name-field-para.field--type-entity-reference-revisions.field--label-hidden.field__item > div > div.field.field--name-field-text2.field--type-string.field--label-hidden.field__item{
+  left: 16.16%;
+right: 32.56%;
+top: 72.78%;
+bottom: 23.98%;
+    width: 80%;
+font-family: Sofia Pro Regular;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 26px;
+    padding-top: 10%;
+/* block Our clients are time constrained and under-resourced. Agendas shift, budgets move and priorities change. We understand. We are agile, creative and immediately responsive to your various working styles, governance requirements and evolving needs. */
+
+
+color: #0B0D21;
+
+}
+#block-lists > div.field.field--name-field-para.field--type-entity-reference-revisions.field--label-hidden.field__item > div{
+  padding-left: 12%;
+    padding-top: 3%;
+    margin-top: 10%;
+    /*container*/
+}
+#block-customforminblock{
+
+    background: black;
+    display: flex;
+    flex-direction: column;
+    width: 1640px;
+    height: 782px;
+    justify-content: center;
+}
+#block-customforminblock > h2{
+  height: 126px;
+left: 56.71%;
+right: 16.34%;
+top: calc(50% - 126px/2 + 1257.5px);
+width: 18%;
+padding-left: 900px;
+font-family: Sofia Pro Regular;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 42px;
+color: #FFFFFF;
+}
+#edit-your-name{
+  height: 48px;
+  left: 56.71%;
+right: 16.16%;
+top: 87.35%;
+bottom: 11.33%;
+margin-left: 900px;
+background: #FFFFFF;
+}
+#edit-email{
+  height: 48px;
+  left: 56.71%;
+right: 16.16%;
+top: 89.08%;
+bottom: 9.6%;
+margin-left: 900px;
+background: #FFFFFF;
+}
+#edit-submit{
+  width: 272px;
+height: 48px;
+left: 1103px;
+top: 3309px;
+margin-left: 1153px;
+background: #F6D330;
+}
+#block-customforminblock::before{
+  content: 'Contact';
+  position: absolute;
+height: 100px;
+left: 16.16%;
+right: 16.34%;
+top: 160px;
+font-family: Alata;
+font-style: normal;
+font-weight: normal;
+font-size: 90px;
+line-height: 100px;
+color: #FFFFFF;
+}
+#block-customforminblock::after{
+  content: '';
+  position: absolute;
+width: 6px;
+height: 100px;
+left: 310px;
+top: 270px;
+background: #F6D330;
+transform: rotate(-90deg);
+}
+#block-customforminblock > h2::before{
+  content: '';
+  position: absolute;
+  bottom: 20px;
+  width: 1px;
+  height: 101px;
+  left: 50%;
+  top: 83%;
+  background: #F6D330;
+}
+#block-customforminblock > h2::after{
+content: 'Email us here:';
+position: absolute;
+height: 84px;
+left: 16.16%;
+right: 50.06%;
+top: 370px;
+
+font-family: Sofia Pro Regular;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 42px;
+color: #FFFFFF;
+}
+#custom-form-in-block-form::after{
+  content: 'info@marvelpowergroup.com';
+  position: absolute;
+  height: 84px;
+  left: 16.16%;
+  right: 50.06%;
+  top: 410px;
+
+  font-family: Sofia Pro Regular;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 42px;
+  color: #F6D330;
+}
+
+.site-footer .layout-container{
+  margin-top: 0;
+}
+
+#block-lists > div.field.field--name-field-para.field--type-entity-reference-revisions.field--label-hidden.field__item > div > div.field.field--name-field-list-ref.field--type-entity-reference-revisions.field--label-hidden.field__items > div:nth-child(2) > div > div.field.field--name-field-list.field--type-string.field--label-hidden.field__items > div:nth-child(1)::before{
+  content: '';
+  position: absolute;
+width: 33px;
+height: 2px;
+left: 286px;
+top: 700px;
+
+background: #FFFFFF;
+}
+#block-lists > div.field.field--name-field-para.field--type-entity-reference-revisions.field--label-hidden.field__item > div > div.field.field--name-field-list-ref.field--type-entity-reference-revisions.field--label-hidden.field__items > div:nth-child(2) > div > div.field.field--name-field-list.field--type-string.field--label-hidden.field__items > div:nth-child(1)::after{
+  content: '';
+  position: absolute;
+width: 33px;
+height: 2px;
+left: 666px;
+top: 700px;
+
+background: #FFFFFF;
+}
+#block-lists > div.field.field--name-field-para.field--type-entity-reference-revisions.field--label-hidden.field__item > div > div.field.field--name-field-list-ref.field--type-entity-reference-revisions.field--label-hidden.field__items > div:nth-child(2) > div > div.field.field--name-field-list.field--type-string.field--label-hidden.field__items > div::after{
+  content: '';
+  position: absolute;
+width: 33px;
+height: 2px;
+left: 1048px;
+top: 700px;
+
+background: #FFFFFF;
+
+}
+#pageanswer{
+
+}
+#block-contact > h2{
+  position: absolute;
+  height: 100px;
+  left: 16.16%;
+  right: 57.32%;
+  top: 120px;
+
+  font-family: Alata;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 90px;
+  line-height: 100px;
+  color: #FFFFFF;
+}
+#block-contact > h2:hover{
+  position: absolute;
+  height: 100px;
+  left: 16.16%;
+  right: 57.32%;
+  top: 120px;
+
+  font-family: Alata;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 90px;
+  line-height: 100px;
+  color: red;
+}
+#block-contact > h2::before{
+  content: '';
+  position: absolute;
+width: 6px;
+height: 100px;
+left: 60px;
+top: 107px;
+
+background: #F6D330;
+transform: rotate(-90deg);
+}
+#block-contact > h2::after{
+  content: 'Email us here:';
+  position: absolute;
+height: 100px;
+left: 5%;
+top: 190px;
+
+font-family: Sofia Pro Regular;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 50px;
+color: #FFFFFF;
+}
+#block-contact{
+  width: 1640px;
+  height: 857px;
+  background: black;
+}
+#block-contact::before{
+content: 'info@marvelpowergroup.com';
+position: absolute;
+height: 100px;
+left: 17.5%;
+top: 430px;
+
+font-family: Sofia Pro Regular;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 50px;
+color: #F6D330;
+}
+#block-contact > div.field.field--name-field-para.field--type-entity-reference-revisions.field--label-hidden.field__item.quickedit-field > div > div.clearfix.text-formatted.field.field--name-field-text1.field--type-text-with-summary.field--label-hidden.field__item > p{
+  position: absolute;
+  height: 150px;
+  left: 56.71%;
+  right: 16.34%;
+  top: 200px;
+  width: 20%;
+  font-family: Sofia Pro Regular;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+  color: #FFFFFF;
+}
+#block-contact > div.field.field--name-field-para.field--type-entity-reference-revisions.field--label-hidden.field__item.quickedit-field > div > div.field.field--name-field-list-ref.field--type-entity-reference-revisions.field--label-hidden.field__items > div > div > div > div{
+  position: absolute;
+  width: 417px;
+  height: 52px;
+  left: 930px;
+  top: 453px;
+
+  font-family: Sofia Pro Regular;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+  .content::after{
+    content: '01 Home';
+    position: absolute;
+  height: 15px;
+  left: 92.83%;
+  right: 3.96%;
+  top: 560px;
+  font-family: Sofia Pro Regular;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #FFFFFF;
+  }
+}
+
+#block-contact > div.field.field--name-field-para.field--type-entity-reference-revisions.field--label-hidden.field__item.quickedit-field > div > div.field.field--name-field-list-ref.field--type-entity-reference-revisions.field--label-hidden.field__items > div > div > div::before{
+  content: '';
+  position: absolute;
+width: 1px;
+height: 21px;
+left: 1640px;
+top: 339px;
+
+background: #FFFFFF;
+transform: matrix(0, -1, -1, 0, 0, 0);
+}
+#block-contact > div.field.field--name-field-para.field--type-entity-reference-revisions.field--label-hidden.field__item.quickedit-field > div > div.field.field--name-field-list-ref.field--type-entity-reference-revisions.field--label-hidden.field__items > div > div > div::after{
+  content: '';
+  position: absolute;
+width: 1px;
+height: 21px;
+left: 1640px;
+top: 380px;
+
+background: #FFFFFF;
+transform: matrix(0, -1, -1, 0, 0, 0);
+}
+#block-contact > div.field.field--name-field-para.field--type-entity-reference-revisions.field--label-hidden.field__item.quickedit-field > div > div.field.field--name-field-list-ref.field--type-entity-reference-revisions.field--label-hidden.field__items > div > div::before{
+  content: '';
+  position: absolute;
+width: 1px;
+height: 21px;
+left: 1641px;
+top: 416px;
+
+background: #FFFFFF;
+transform: matrix(0, -1, -1, 0, 0, 0);
+}
+#block-contact > div.field.field--name-field-para.field--type-entity-reference-revisions.field--label-hidden.field__item.quickedit-field > div > div.field.field--name-field-list-ref.field--type-entity-reference-revisions.field--label-hidden.field__items > div > div::after{
+content: '';
+position: absolute;
+width: 1px;
+height: 60px;
+left: 1640px;
+top: 435px;
+
+background: #FFFFFF;
+transform: matrix(0, -1, -1, 0, 0, 0);
+}
+#block-contact > div.field.field--name-field-para.field--type-entity-reference-revisions.field--label-hidden.field__item.quickedit-field > div > div.field.field--name-field-list-ref.field--type-entity-reference-revisions.field--label-hidden.field__items > div::before{
+content: '01';
+position: absolute;
+height: 15px;
+left: 97.44%;
+right: 1.59%;
+top: calc(50% - 15px/2 - 80.5px);
+
+font-family: Sofia Pro Regular;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 10px;
+display: flex;
+align-items: center;
+text-align: right;
+
+color: #FFFFFF;
+}
+#block-contact > div.field.field--name-field-para.field--type-entity-reference-revisions.field--label-hidden.field__item.quickedit-field > div > div.field.field--name-field-list-ref.field--type-entity-reference-revisions.field--label-hidden.field__items > div::after{
+content: '02';
+position: absolute;
+height: 15px;
+left: 97.68%;
+right: 1.59%;
+top: calc(50% - 15px/2 - 38.5px);
+
+font-family: Sofia Pro Regular;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 10px;
+display: flex;
+align-items: center;
+text-align: right;
+
+color: #FFFFFF;
+
+}
+#block-contact > div.field.field--name-field-para.field--type-entity-reference-revisions.field--label-hidden.field__item.quickedit-field > div > div.field.field--name-field-list-ref.field--type-entity-reference-revisions.field--label-hidden.field__items::before{
+content: '03';
+position: absolute;
+height: 15px;
+left: 97.68%;
+right: 1.59%;
+top: calc(50% - 15px/2 + 1px);
+
+font-family: Sofia Pro Regular;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 10px;
+display: flex;
+align-items: center;
+text-align: right;
+
+color: #FFFFFF;
+}
+#block-contact > div.field.field--name-field-para.field--type-entity-reference-revisions.field--label-hidden.field__item.quickedit-field > div > div.field.field--name-field-list-ref.field--type-entity-reference-revisions.field--label-hidden.field__items::after{
+content: '04 Contact';
+position: absolute;
+height: 15px;
+left: 90.18%;
+right: 3.96%;
+top: calc(50% - 15px/2 + 37.5px);
+
+font-family: Sofia Pro Regular;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 14px;
+display: flex;
+align-items: center;
+text-align: right;
+color: #FFFFFF;
+}
+.site-hero::after{
+  display: none;
+}
+body > div.layout-container > main::after{
+  display: none;
+}
